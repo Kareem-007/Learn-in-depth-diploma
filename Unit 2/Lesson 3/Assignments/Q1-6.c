@@ -9,6 +9,6 @@ int main()
     printf("Enter value of b: ");
     scanf("%f",&b);
     c=a,a=b,b=c;
-    printf("After swapping, value of a = %f \n",a);
-    printf("After swapping, value of a = %f",b);
+    printf("After swapping, value of a = %.2f \n",a);
+    printf("After swapping, value of a = %.2f",b);
 } 
